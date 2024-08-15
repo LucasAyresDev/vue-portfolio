@@ -1,26 +1,32 @@
 <template>
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <AboutPort />
+    <ServicesPort/>
+    <HomePort/>
+    <PortFolio/>
+    <ContactMe/>
+  </div>
 </template>
 
 <script>
 import './assets/style.css';
 import HelloWorld from './components/HelloWorld.vue'
+import AboutPort from './components/AboutPort.vue';
+import ServicesPort from './components/ServicesPort.vue';
+import PortFolio from './components/PortFolio.vue';
+import ContactMe from './components/ContactMe.vue';
+import HomePort from './components/HomePort.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    AboutPort,
+    ServicesPort,
+    PortFolio,
+    ContactMe,
+    HomePort
   }
 }
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>

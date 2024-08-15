@@ -1,30 +1,109 @@
 <template>
-  <div class="hello">
-    
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <header>
+    <title>Lucas Ayres Portfólio</title>
+    <div class="nav">
+      <a href="#home">Home</a>
+      <a href="#services">Service</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+    </div>
+  </header>
 
-    <img :src="require('./img/img.perfil.png')" alt="img-perfil" id="foto">
-    <a href="https://www.linkedin.com/in/devlucasayres2809/" target="_blank" class="button">
-    <img :src="require('./img/linkedin-button.png')" alt="Perfil do LinkedIn">
-    </a>
-    <a href="https://github.com/LucasAyresDev" target="_blank" class="button">
-      <img :src="require('./img/github-button.png')" alt="Botão do GitHub">
-    </a>
 
-    <h1 class="centro">LUCAS AYRES DE SOUZA</h1>
-    <h2 class="centro">Front-End Developer</h2>
-        <div class="perfil">
-            <h3 class="centro">PERFIL PROFISSIONAL</h3>
-                <p>Sou um estudante de Análise e Desenvolvimento de Sistemas com grande
-                entusiasmo pelo desenvolvimento front-end. Tenho uma base em HTML, CSS e
-                JavaScript, além de alguma experiência prática com Vue.js. Sou apaixonado por
-                aprender e estou sempre buscando novas oportunidades para expandir meus
-                conhecimentos e habilidades. <br>
-                Estou procurando um estágio onde eu possa aplicar o que aprendi, crescer como
-                desenvolvedor e contribuir para projetos significativos. Acredito na importância
-                do trabalho em equipe e na comunicação eficaz, e estou ansioso para trazer
-                minha energia e dedicação para sua equipe.
-                </p>
-        </div>
+
+
+  <section class="portfolio" id="portfolio">
+  <h2>Latest <span>Projects</span></h2>
+  <div class="portfolio-container">
+    <div class="portfolio-box">
+      <img src="@/assets/img/corrida.png.png" alt="blog-corrida">
+      <img src="@/assets/img/vue.png.png" alt="vue-login">
+      <div class="portfolio-layer">
+        <h4>Web developer</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quasi labore expedita soluta repellendus nisi, eius accusamus tenetur cum vero.
+
+        </p>
+
+        <a href="#"><i class='bx bx-link-external'></i></a>
+
+      </div>
+    </div>
+  </div>
+  <div class="portfolio-container">
+    <div class="portfolio-box">
+      IMG
+      <div class="portfolio-layer">
+        <h4>Web developer</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quasi labore expedita soluta repellendus nisi, eius accusamus tenetur cum vero.
+
+        </p>
+
+        <a href="#"><i class='bx bx-link-external'></i></a>
+
+      </div>
+    </div>
+  </div>
+
+</section>
+<section class="contact" id="contact">
+  <img src="@/assets/img/img-perfil.png" alt="img-about">
+  <h2>Contact <span>Me!</span></h2>
+
+  <form action="">
+    <div class="input-box">
+      <input type="text" placeholder="Full Name">
+      <input type="email" placeholder="E-mail">
+    </div>
+
+    <div>
+      <input type="number" placeholder="Phone Number">
+      <input type="text" placeholder="Subject">
+    </div>
+
+    <textarea cols="30" rows="8" placeholder="Message"></textarea>
+
+    <a href="#" class="btn">Send Message</a>
+  </form>
+</section>
+
+
+
+
+
+
+
+
+<section class="about" id="about">
+  <div class="about-img">
+    <img src="" alt="">
+  </div>
+
+  <div>
+    <h3>About Me</h3>
+    <h1>Web <span>Developer</span></h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non necessitatibus fugit temporibus at quis blanditiis deserunt aperiam vitae odio nulla, excepturi ullam? Totam optio, illum ullam omnis amet esse. Obcaecati nam libero, neque iusto dolorem aliquam quis modi deserunt, enim, veritatis tempore excepturi debitis ut voluptatem assumenda magnam? Molestiae, rerum?
+
+    </p>
+
+    <a href="#" class="btn">Read More</a>
+
+  </div>
+</section>
+
+
+
+<footer>
+  <p>Copyright &copy; 2024 by &lt;/Ayres&gt;. All Rights Reserved.</p>
+</footer>
+
+
+
+
+
+
+   
         <div id="contato">
             <h3 class="centro">CONTATO</h3>
             <ol>Telefone: (21) 980 470 317</ol>
@@ -73,7 +152,6 @@
             Serviço de entrega rápida
             Autônomo - Motofretista
             Junho 2020 - Junho 2021 <br>
-  </div>
 </template>
 
 <script>
@@ -85,20 +163,4 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
-</style>
+
