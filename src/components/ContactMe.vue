@@ -2,8 +2,7 @@
   
 
 <section class="contact" id="contact">
-    <img src="@/assets/img/img-perfil.png" alt="img-about">
-    <h2>Contact <span>Me!</span></h2>
+    <h2>Fale <span>Comigo!</span></h2>
   
     <form action="">
       <div class="input-box">

@@ -3,20 +3,21 @@
 
 
 <section class="about" id="about">
-    <div class="about-img">
-      <img src="" alt="">
-    </div>
   
-    <div>
-      <h3>About Me</h3>
-      <h1>Web <span>Developer</span></h1>
-  
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non necessitatibus fugit temporibus at quis blanditiis deserunt aperiam vitae odio nulla, excepturi ullam? Totam optio, illum ullam omnis amet esse. Obcaecati nam libero, neque iusto dolorem aliquam quis modi deserunt, enim, veritatis tempore excepturi debitis ut voluptatem assumenda magnam? Molestiae, rerum?
-  
-      </p>
+<div>
+  <h3>Sobre mim</h3><br>
+  <h1>Web <span>Developer:</span></h1><br>
+
+  <h3>FORMAÇÃO</h3> 
+  <p> Universidade Anhanguera - Análise e Desenvolvimento de Sistemas (Fevereiro 2024 - Junho 2026) <br>
+
+   CIEMS - Centro Interescolar Miécimo da Silva - Técnico em administração (Fevereiro 2010 - Dezembro 2013)
+  </p><br>
+
+<h3>EXPERIÊNCIA DE TRABALHO</h3>
+  <p>Em busca da primeira oportunidade no mercado de tecnologia!</p>
   
       <a href="#" class="btn">Read More</a>
-  
     </div>
   </section>
 
