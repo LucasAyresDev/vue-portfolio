@@ -4,14 +4,14 @@
 <section class="contact" id="contact">
     <h2>Fale <span>Comigo!</span></h2>
   
-    <form action="">
+    <form action="https://formspree.io/f/myzgdjjp" method="POST">
       <div class="input-box">
         <input type="text" placeholder="Full Name">
         <input type="email" placeholder="E-mail">
       </div>
   
-      <div>
-        <input type="number" placeholder="Phone Number">
+      <div class="input-box">
+        <input type="text" placeholder="Phone Number">
         <input type="text" placeholder="Subject">
       </div>
   

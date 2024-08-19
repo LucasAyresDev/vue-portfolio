@@ -1,5 +1,5 @@
 <template>
-      <section class="home" id="home">
+  <section class="home" id="home">
       <div class="home-content">
         <h3>Olá, eu sou</h3>
         <h1>Lucas Ayres de Souza</h1>
@@ -16,13 +16,13 @@
                 minha energia e dedicação para sua equipe.
                 </p>
 
-        <div class="social-media">
-          <a href="#"><i class='bx bxl-facebook-square'></i></a>
-          <a href="#"><i class='bx bxl-instagram-alt'></i></a>
-          <a href="#"><i class='bx bxl-linkedin-square'></i></a>
-          <a href="#"><i class='bx bxl-github'></i></a>
-        </div>
-        <a href="#" class="btn">Download CV</a>
+            <div class="social-media">
+              <a href="https://www.facebook.com/Lucas2Ayres" target="_blank"><i class='bx bxl-facebook-square'></i></a>
+              <a href="https://www.instagram.com/lucasayres2/"  target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+              <a href="https://www.linkedin.com/in/devlucasayres2809/"  target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+              <a href="https://github.com/LucasAyresDev"  target="_blank"><i class='bx bxl-github'></i></a>
+            </div>
+        <a href="./CvLucasAyres.pdf" class="btn" download="">Download CV</a>
       </div>
     
     <div class="home-img">

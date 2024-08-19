@@ -1,7 +1,7 @@
 <template>
     <section class="services" id="services">
         <h2>Meus <span>serviços</span></h2>
-
+        <div class="services-container">
         <div class="services-box">
         <i class='bx bx-code-alt'></i>
         <h3>Web developer</h3>
@@ -10,9 +10,6 @@
 
         <a href="#" class="btn">Read More</a>
         </div>
-
+      </div>
   </section>
-
- 
-
 </template>
